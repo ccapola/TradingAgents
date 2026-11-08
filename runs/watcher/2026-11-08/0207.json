@@ -1,0 +1,801 @@
+{
+  "run_at_utc": "2026-11-08T02:07:08.536622+00:00",
+  "holdings_as_of": "2026-11-06T20:39:47Z",
+  "holdings_warning": null,
+  "market_note": "Price data is as of the most recent trading day close (2026-11-06). If the market is closed, this is the last close, not a live quote.",
+  "flag_rules": {
+    "day_move_percent": 3.0,
+    "options": "nearest-expiry contract volume > open interest",
+    "news": ">= 3 headlines in 48h"
+  },
+  "tickers": [
+    {
+      "ticker": "META",
+      "weight_percent": 53.88,
+      "price": 610.1500244140625,
+      "day_change_percent": 0.83790691826234,
+      "data_date": "2026-11-06",
+      "options_flagged_contracts": [
+        {
+          "type": "call",
+          "contract": "META261109C00580000",
+          "strike": 580.0,
+          "volume": 36,
+          "open_interest": 4,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "META261109C00605000",
+          "strike": 605.0,
+          "volume": 362,
+          "open_interest": 258,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "META261109C00607500",
+          "strike": 607.5,
+          "volume": 248,
+          "open_interest": 104,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "META261109C00610000",
+          "strike": 610.0,
+          "volume": 558,
+          "open_interest": 378,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "META261109C00612500",
+          "strike": 612.5,
+          "volume": 556,
+          "open_interest": 62,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "META261109C00615000",
+          "strike": 615.0,
+          "volume": 1221,
+          "open_interest": 437,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "META261109C00617500",
+          "strike": 617.5,
+          "volume": 1152,
+          "open_interest": 60,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "META261109C00620000",
+          "strike": 620.0,
+          "volume": 2690,
+          "open_interest": 439,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "META261109C00622500",
+          "strike": 622.5,
+          "volume": 937,
+          "open_interest": 136,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "META261109C00625000",
+          "strike": 625.0,
+          "volume": 1996,
+          "open_interest": 159,
+          "expiry": "2026-11-09"
+        }
+      ],
+      "options_flagged_count": 50,
+      "options_note": null,
+      "options_expiry_checked": "2026-11-09",
+      "fresh_news_count": 10,
+      "flagged": true,
+      "flag_reasons": [
+        "50 options contract(s) with volume > open interest",
+        "10 fresh headlines in 48h"
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "weight_percent": 16.56,
+      "price": 259.29998779296875,
+      "day_change_percent": -0.3497189546875933,
+      "data_date": "2026-11-06",
+      "options_flagged_contracts": [
+        {
+          "type": "call",
+          "contract": "AMZN261109C00235000",
+          "strike": 235.0,
+          "volume": 385,
+          "open_interest": 57,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "AMZN261109C00240000",
+          "strike": 240.0,
+          "volume": 402,
+          "open_interest": 94,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "AMZN261109C00260000",
+          "strike": 260.0,
+          "volume": 4942,
+          "open_interest": 4127,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "AMZN261109C00262500",
+          "strike": 262.5,
+          "volume": 4788,
+          "open_interest": 637,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "AMZN261109C00265000",
+          "strike": 265.0,
+          "volume": 7900,
+          "open_interest": 1057,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "AMZN261109C00267500",
+          "strike": 267.5,
+          "volume": 3627,
+          "open_interest": 694,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "AMZN261109C00270000",
+          "strike": 270.0,
+          "volume": 6890,
+          "open_interest": 1389,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "AMZN261109C00272500",
+          "strike": 272.5,
+          "volume": 2289,
+          "open_interest": 1228,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "AMZN261109C00275000",
+          "strike": 275.0,
+          "volume": 3557,
+          "open_interest": 969,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "AMZN261109C00277500",
+          "strike": 277.5,
+          "volume": 3561,
+          "open_interest": 1275,
+          "expiry": "2026-11-09"
+        }
+      ],
+      "options_flagged_count": 26,
+      "options_note": null,
+      "options_expiry_checked": "2026-11-09",
+      "fresh_news_count": 10,
+      "flagged": true,
+      "flag_reasons": [
+        "26 options contract(s) with volume > open interest",
+        "10 fresh headlines in 48h"
+      ]
+    },
+    {
+      "ticker": "MU",
+      "weight_percent": 9.08,
+      "price": 690.0,
+      "day_change_percent": 5.12042910487662,
+      "data_date": "2026-11-06",
+      "options_flagged_contracts": [
+        {
+          "type": "call",
+          "contract": "MU261109C00805000",
+          "strike": 805.0,
+          "volume": 539,
+          "open_interest": 303,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "MU261109C00820000",
+          "strike": 820.0,
+          "volume": 484,
+          "open_interest": 364,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "MU261109C00825000",
+          "strike": 825.0,
+          "volume": 363,
+          "open_interest": 243,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "MU261109C00830000",
+          "strike": 830.0,
+          "volume": 883,
+          "open_interest": 525,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "MU261109C00840000",
+          "strike": 840.0,
+          "volume": 473,
+          "open_interest": 412,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "MU261109C00850000",
+          "strike": 850.0,
+          "volume": 1062,
+          "open_interest": 603,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "MU261109C00870000",
+          "strike": 870.0,
+          "volume": 308,
+          "open_interest": 235,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "MU261109C01035000",
+          "strike": 1035.0,
+          "volume": 25,
+          "open_interest": 6,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "MU261109C01135000",
+          "strike": 1135.0,
+          "volume": 14,
+          "open_interest": 12,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "put",
+          "contract": "MU261109P00860000",
+          "strike": 860.0,
+          "volume": 56,
+          "open_interest": 31,
+          "expiry": "2026-11-09"
+        }
+      ],
+      "options_flagged_count": 31,
+      "options_note": null,
+      "options_expiry_checked": "2026-11-09",
+      "fresh_news_count": 10,
+      "flagged": true,
+      "flag_reasons": [
+        "day move +5.12%",
+        "31 options contract(s) with volume > open interest",
+        "10 fresh headlines in 48h"
+      ]
+    },
+    {
+      "ticker": "BE",
+      "weight_percent": 7.89,
+      "price": 173.24000549316406,
+      "day_change_percent": 3.4145183111384694,
+      "data_date": "2026-11-06",
+      "options_flagged_contracts": [
+        {
+          "type": "call",
+          "contract": "BE261113C00155000",
+          "strike": 155.0,
+          "volume": 10,
+          "open_interest": 7,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "BE261113C00165000",
+          "strike": 165.0,
+          "volume": 233,
+          "open_interest": 210,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "BE261113C00170000",
+          "strike": 170.0,
+          "volume": 1271,
+          "open_interest": 476,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "BE261113C00175000",
+          "strike": 175.0,
+          "volume": 2289,
+          "open_interest": 587,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "BE261113C00182500",
+          "strike": 182.5,
+          "volume": 405,
+          "open_interest": 108,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "BE261113C00185000",
+          "strike": 185.0,
+          "volume": 755,
+          "open_interest": 194,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "BE261113C00190000",
+          "strike": 190.0,
+          "volume": 1519,
+          "open_interest": 301,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "BE261113C00192500",
+          "strike": 192.5,
+          "volume": 399,
+          "open_interest": 75,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "BE261113C00195000",
+          "strike": 195.0,
+          "volume": 728,
+          "open_interest": 418,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "BE261113C00197500",
+          "strike": 197.5,
+          "volume": 394,
+          "open_interest": 87,
+          "expiry": "2026-11-13"
+        }
+      ],
+      "options_flagged_count": 55,
+      "options_note": null,
+      "options_expiry_checked": "2026-11-13",
+      "fresh_news_count": 10,
+      "flagged": true,
+      "flag_reasons": [
+        "day move +3.41%",
+        "55 options contract(s) with volume > open interest",
+        "10 fresh headlines in 48h"
+      ]
+    },
+    {
+      "ticker": "NVDA",
+      "weight_percent": 7.17,
+      "price": 186.63999938964844,
+      "day_change_percent": 2.775326606134537,
+      "data_date": "2026-11-06",
+      "options_flagged_contracts": [
+        {
+          "type": "call",
+          "contract": "NVDA261109C00145000",
+          "strike": 145.0,
+          "volume": 141,
+          "open_interest": 17,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "NVDA261109C00150000",
+          "strike": 150.0,
+          "volume": 643,
+          "open_interest": 347,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "NVDA261109C00155000",
+          "strike": 155.0,
+          "volume": 320,
+          "open_interest": 114,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "NVDA261109C00165000",
+          "strike": 165.0,
+          "volume": 1610,
+          "open_interest": 144,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "NVDA261109C00185000",
+          "strike": 185.0,
+          "volume": 6387,
+          "open_interest": 1726,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "NVDA261109C00187500",
+          "strike": 187.5,
+          "volume": 11010,
+          "open_interest": 2562,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "NVDA261109C00190000",
+          "strike": 190.0,
+          "volume": 27662,
+          "open_interest": 3247,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "NVDA261109C00192500",
+          "strike": 192.5,
+          "volume": 18545,
+          "open_interest": 3267,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "NVDA261109C00195000",
+          "strike": 195.0,
+          "volume": 31270,
+          "open_interest": 2313,
+          "expiry": "2026-11-09"
+        },
+        {
+          "type": "call",
+          "contract": "NVDA261109C00197500",
+          "strike": 197.5,
+          "volume": 15047,
+          "open_interest": 1355,
+          "expiry": "2026-11-09"
+        }
+      ],
+      "options_flagged_count": 49,
+      "options_note": null,
+      "options_expiry_checked": "2026-11-09",
+      "fresh_news_count": 10,
+      "flagged": true,
+      "flag_reasons": [
+        "49 options contract(s) with volume > open interest",
+        "10 fresh headlines in 48h"
+      ]
+    },
+    {
+      "ticker": "GOOG",
+      "weight_percent": 2.96,
+      "price": 283.92999267578125,
+      "day_change_percent": 0.7773133091913653,
+      "data_date": "2026-11-06",
+      "options_flagged_contracts": [
+        {
+          "type": "call",
+          "contract": "GOOG261113C00235000",
+          "strike": 235.0,
+          "volume": 60,
+          "open_interest": 5,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "GOOG261113C00240000",
+          "strike": 240.0,
+          "volume": 150,
+          "open_interest": 24,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "GOOG261113C00245000",
+          "strike": 245.0,
+          "volume": 149,
+          "open_interest": 23,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "GOOG261113C00250000",
+          "strike": 250.0,
+          "volume": 309,
+          "open_interest": 39,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "GOOG261113C00255000",
+          "strike": 255.0,
+          "volume": 112,
+          "open_interest": 35,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "GOOG261113C00260000",
+          "strike": 260.0,
+          "volume": 37,
+          "open_interest": 32,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "GOOG261113C00285000",
+          "strike": 285.0,
+          "volume": 1986,
+          "open_interest": 1616,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "GOOG261113C00287500",
+          "strike": 287.5,
+          "volume": 936,
+          "open_interest": 565,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "GOOG261113C00290000",
+          "strike": 290.0,
+          "volume": 2064,
+          "open_interest": 1563,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "GOOG261113C00292500",
+          "strike": 292.5,
+          "volume": 2180,
+          "open_interest": 594,
+          "expiry": "2026-11-13"
+        }
+      ],
+      "options_flagged_count": 50,
+      "options_note": null,
+      "options_expiry_checked": "2026-11-13",
+      "fresh_news_count": 10,
+      "flagged": true,
+      "flag_reasons": [
+        "50 options contract(s) with volume > open interest",
+        "10 fresh headlines in 48h"
+      ]
+    },
+    {
+      "ticker": "NFLX",
+      "weight_percent": 1.92,
+      "price": 63.40999984741211,
+      "day_change_percent": -3.279435313065862,
+      "data_date": "2026-11-06",
+      "options_flagged_contracts": [
+        {
+          "type": "call",
+          "contract": "NFLX261113C00064000",
+          "strike": 64.0,
+          "volume": 4208,
+          "open_interest": 1682,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "NFLX261113C00065000",
+          "strike": 65.0,
+          "volume": 11604,
+          "open_interest": 5192,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "NFLX261113C00066000",
+          "strike": 66.0,
+          "volume": 4997,
+          "open_interest": 3272,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "NFLX261113C00067000",
+          "strike": 67.0,
+          "volume": 8828,
+          "open_interest": 4174,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "NFLX261113C00110000",
+          "strike": 110.0,
+          "volume": 10,
+          "open_interest": 5,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "put",
+          "contract": "NFLX261113P00054000",
+          "strike": 54.0,
+          "volume": 339,
+          "open_interest": 243,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "put",
+          "contract": "NFLX261113P00059000",
+          "strike": 59.0,
+          "volume": 2742,
+          "open_interest": 1316,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "put",
+          "contract": "NFLX261113P00060000",
+          "strike": 60.0,
+          "volume": 3316,
+          "open_interest": 2567,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "put",
+          "contract": "NFLX261113P00061000",
+          "strike": 61.0,
+          "volume": 2899,
+          "open_interest": 985,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "put",
+          "contract": "NFLX261113P00062000",
+          "strike": 62.0,
+          "volume": 2262,
+          "open_interest": 1508,
+          "expiry": "2026-11-13"
+        }
+      ],
+      "options_flagged_count": 20,
+      "options_note": null,
+      "options_expiry_checked": "2026-11-13",
+      "fresh_news_count": 6,
+      "flagged": true,
+      "flag_reasons": [
+        "day move -3.28%",
+        "20 options contract(s) with volume > open interest",
+        "6 fresh headlines in 48h"
+      ]
+    },
+    {
+      "ticker": "MSTX",
+      "weight_percent": 0.53,
+      "price": 11.850000381469727,
+      "day_change_percent": -1.3322218514812285,
+      "data_date": "2026-11-06",
+      "options_flagged_contracts": [
+        {
+          "type": "call",
+          "contract": "MSTX261113C00001000",
+          "strike": 1.0,
+          "volume": 2,
+          "open_interest": 1,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "MSTX261113C00011000",
+          "strike": 11.0,
+          "volume": 66,
+          "open_interest": 2,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "MSTX261113C00012000",
+          "strike": 12.0,
+          "volume": 361,
+          "open_interest": 282,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "MSTX261113C00013000",
+          "strike": 13.0,
+          "volume": 157,
+          "open_interest": 26,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "call",
+          "contract": "MSTX261113C00014000",
+          "strike": 14.0,
+          "volume": 88,
+          "open_interest": 25,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "put",
+          "contract": "MSTX261113P00008000",
+          "strike": 8.0,
+          "volume": 8,
+          "open_interest": 5,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "put",
+          "contract": "MSTX261113P00011000",
+          "strike": 11.0,
+          "volume": 48,
+          "open_interest": 46,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "put",
+          "contract": "MSTX261113P00018000",
+          "strike": 18.0,
+          "volume": 10,
+          "open_interest": 5,
+          "expiry": "2026-11-13"
+        },
+        {
+          "type": "put",
+          "contract": "MSTX261113P00028000",
+          "strike": 28.0,
+          "volume": 1,
+          "open_interest": 0,
+          "expiry": "2026-11-13"
+        }
+      ],
+      "options_flagged_count": 9,
+      "options_note": null,
+      "options_expiry_checked": "2026-11-13",
+      "fresh_news_count": 0,
+      "flagged": true,
+      "flag_reasons": [
+        "9 options contract(s) with volume > open interest"
+      ]
+    }
+  ],
+  "flagged_tickers": [
+    "META",
+    "AMZN",
+    "MU",
+    "BE",
+    "NVDA",
+    "GOOG",
+    "NFLX",
+    "MSTX"
+  ]
+}

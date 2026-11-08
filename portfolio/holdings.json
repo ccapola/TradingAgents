@@ -1,0 +1,189 @@
+{
+  "source": "Portfolio Tracker artifact (portfolio-tracker), getdashboard action, scope=combined",
+  "as_of": "2026-11-06T20:39:47Z",
+  "stale_after_days": 7,
+  "totals": {
+    "borrowed": 5129.78,
+    "costBasis": 27843.81,
+    "dayChange": 516.96,
+    "dayChangePercent": 1.88,
+    "ownedEquity": 22947.03,
+    "pnl": 233,
+    "pnlPercent": 0.84,
+    "topSymbol": "META",
+    "topWeight": 53.88,
+    "value": 28076.81
+  },
+  "holdings": [
+    {
+      "ticker": "META",
+      "shares": 24.582,
+      "market_value": 15128.75,
+      "cost_basis": 13822.03,
+      "weight_percent": 53.88,
+      "accounts": [
+        {
+          "account": "roth",
+          "shares": 12.785,
+          "avg_cost": 545.32,
+          "price_at_snapshot": 615.44,
+          "market_value": 7868.4,
+          "weight_percent": 28.02,
+          "funding_type": "owned"
+        },
+        {
+          "account": "individual",
+          "shares": 11.797,
+          "avg_cost": 580.6657938458931,
+          "price_at_snapshot": 615.44,
+          "market_value": 7260.35,
+          "weight_percent": 25.86,
+          "funding_type": "owned"
+        }
+      ],
+      "avg_cost": 562.2826
+    },
+    {
+      "ticker": "AMZN",
+      "shares": 17.861872,
+      "market_value": 4651.06,
+      "cost_basis": 4491.31,
+      "weight_percent": 16.56,
+      "accounts": [
+        {
+          "account": "individual",
+          "shares": 12.098872,
+          "avg_cost": 247.2484183781761,
+          "price_at_snapshot": 260.39,
+          "market_value": 3150.43,
+          "weight_percent": 11.22,
+          "funding_type": "margin"
+        },
+        {
+          "account": "roth",
+          "shares": 5.763,
+          "avg_cost": 260.26,
+          "price_at_snapshot": 260.39,
+          "market_value": 1500.63,
+          "weight_percent": 5.34,
+          "funding_type": "owned"
+        }
+      ],
+      "avg_cost": 251.4468
+    },
+    {
+      "ticker": "MU",
+      "shares": 3.696457,
+      "market_value": 2550.3,
+      "cost_basis": 3381.3,
+      "weight_percent": 9.08,
+      "accounts": [
+        {
+          "account": "individual",
+          "shares": 3.696457,
+          "avg_cost": 914.74,
+          "price_at_snapshot": 689.93,
+          "market_value": 2550.3,
+          "weight_percent": 9.08,
+          "funding_type": "owned"
+        }
+      ],
+      "avg_cost": 914.7408
+    },
+    {
+      "ticker": "BE",
+      "shares": 12.732273,
+      "market_value": 2215.67,
+      "cost_basis": 2366.67,
+      "weight_percent": 7.89,
+      "accounts": [
+        {
+          "account": "individual",
+          "shares": 12.732273,
+          "avg_cost": 185.8793143,
+          "price_at_snapshot": 174.02,
+          "market_value": 2215.67,
+          "weight_percent": 7.89,
+          "funding_type": "margin"
+        }
+      ],
+      "avg_cost": 185.8796
+    },
+    {
+      "ticker": "NVDA",
+      "shares": 10.741263,
+      "market_value": 2014.42,
+      "cost_basis": 2000.02,
+      "weight_percent": 7.17,
+      "accounts": [
+        {
+          "account": "individual",
+          "shares": 10.741263,
+          "avg_cost": 186.19969814,
+          "price_at_snapshot": 187.54,
+          "market_value": 2014.42,
+          "weight_percent": 7.17,
+          "funding_type": "margin"
+        }
+      ],
+      "avg_cost": 186.1997
+    },
+    {
+      "ticker": "GOOG",
+      "shares": 2.916,
+      "market_value": 829.86,
+      "cost_basis": 1001.35,
+      "weight_percent": 2.96,
+      "accounts": [
+        {
+          "account": "roth",
+          "shares": 2.916,
+          "avg_cost": 343.4,
+          "price_at_snapshot": 284.59,
+          "market_value": 829.86,
+          "weight_percent": 2.96,
+          "funding_type": "owned"
+        }
+      ],
+      "avg_cost": 343.3985
+    },
+    {
+      "ticker": "NFLX",
+      "shares": 8.487,
+      "market_value": 539.01,
+      "cost_basis": 626.51,
+      "weight_percent": 1.92,
+      "accounts": [
+        {
+          "account": "roth",
+          "shares": 8.487,
+          "avg_cost": 73.82,
+          "price_at_snapshot": 63.51,
+          "market_value": 539.01,
+          "weight_percent": 1.92,
+          "funding_type": "owned"
+        }
+      ],
+      "avg_cost": 73.82
+    },
+    {
+      "ticker": "MSTX",
+      "shares": 12.5,
+      "market_value": 147.75,
+      "cost_basis": 154.63,
+      "weight_percent": 0.53,
+      "accounts": [
+        {
+          "account": "individual",
+          "shares": 12.5,
+          "avg_cost": 12.37,
+          "price_at_snapshot": 11.82,
+          "market_value": 147.75,
+          "weight_percent": 0.53,
+          "funding_type": "owned"
+        }
+      ],
+      "avg_cost": 12.3704
+    }
+  ]
+}
