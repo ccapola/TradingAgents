@@ -1,3 +1,4 @@
+import os
 import re
 from typing import Any
 
@@ -9,6 +10,7 @@ from .validators import validate_model
 _PASSTHROUGH_KWARGS = (
     "timeout", "max_retries", "api_key", "max_tokens", "temperature",
     "callbacks", "http_client", "http_async_client", "effort",
+    "default_headers",
 )
 
 # Anthropic's extended-thinking ``effort`` parameter is accepted by Opus 4.5+,
@@ -71,6 +73,18 @@ class AnthropicClient(BaseLLMClient):
             if key == "effort" and not _supports_effort(self.model):
                 continue
             llm_kwargs[key] = self.kwargs[key]
+
+        # x-api-key placement adapter: the installed Anthropic SDK presents
+        # an API key as an "Authorization: Bearer" token, which the Anthropic
+        # API rejects for API keys with 401 "Invalid bearer token". Anthropic
+        # API keys authenticate through the x-api-key header, so also carry
+        # the key there on every request. An explicitly passed x-api-key
+        # header wins and is never overwritten.
+        api_key = self.kwargs.get("api_key") or os.environ.get("ANTHROPIC_API_KEY")
+        if api_key:
+            headers = dict(llm_kwargs.get("default_headers") or {})
+            headers.setdefault("x-api-key", api_key)
+            llm_kwargs["default_headers"] = headers
 
         return NormalizedChatAnthropic(**llm_kwargs)
 
